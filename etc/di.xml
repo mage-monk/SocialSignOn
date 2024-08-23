@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Api\AccountManagementInterface">
+        <plugin sortOrder="1" name="set_registration_source" type="MageMonk\SocialSignOn\Plugin\Customer\Api\AccountManagement" />
+    </type>
+
+    <preference for="MageMonk\SocialSignOn\Api\Customer\SsoLoginManagementInterface" type="MageMonk\SocialSignOn\Model\Customer\SsoLoginManagement" />
+</config>

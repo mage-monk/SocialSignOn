@@ -1,0 +1,31 @@
+{
+    "name": "mage-monk/module-social-sign-on",
+    "description": "Social Sign On base module",
+    "require": {
+        "php": "^8.1",
+        "magento/magento2-customer": "*"
+    },
+    "keywords": [
+        "magento",
+        "social sign on"
+    ],
+    "authors": [
+        {
+            "name": "Prince Kumar",
+            "email": "prince.lpu1991@gmail.com"
+        }
+    ],
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageMonk\\SocialSignOn\\": ""
+        }
+    }
+}
