@@ -1,13 +1,18 @@
 {
     "name": "mage-monk/module-social-sign-on",
-    "description": "Social Sign On base module",
+    "description": "Social-Sign-On base module",
+    "version": "1.0.0",
     "require": {
-        "php": "^8.1",
-        "magento/magento2-customer": "*"
+        "php": "^8.2",
+        "magento/magento2-customer": "*",
+        "mage-monk/module-base": "^1.0.0"
     },
     "keywords": [
-        "magento",
-        "social sign on"
+        "magento 2",
+        "Adobe Commerce - Magento",
+        "mage-monk",
+        "Social sign in",
+        "Social sign on"
     ],
     "authors": [
         {
