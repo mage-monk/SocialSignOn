@@ -3,7 +3,7 @@
     "description": "Social-Sign-On base module",
     "version": "1.0.0",
     "require": {
-        "php": "^8.2",
+        "php": "~8.2",
         "mage-monk/module-base": "^1.0.0"
     },
     "keywords": [
