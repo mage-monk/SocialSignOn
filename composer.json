@@ -4,7 +4,6 @@
     "version": "1.0.0",
     "require": {
         "php": "^8.2",
-        "magento/magento2-customer": "*",
         "mage-monk/module-base": "^1.0.0"
     },
     "keywords": [
