@@ -22,8 +22,16 @@
     "minimum-stability": "dev",
     "repositories": [
         {
-            "type": "vcs",
-            "url":  "git@github.com:mage-monk/SocialSignOn.git"
+            "type": "package",
+            "package": {
+                "name": "mage-monk/module-social-sign-on",
+                "version": "1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:mage-monk/SocialSignOn.git",
+                    "reference": "1.0.0"
+                }
+            }
         }
     ],
     "prefer-stable": true,
