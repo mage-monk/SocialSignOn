@@ -1,10 +1,10 @@
 {
     "name": "mage-monk/module-social-sign-on",
     "description": "Social-Sign-On base module",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "require": {
         "php": "^8.2",
-        "mage-monk/module-base": "^1.0.0"
+        "mage-monk/module-base": "^1.0.1"
     },
     "keywords": [
         "magento 2",
